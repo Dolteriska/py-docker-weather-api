@@ -1,0 +1,10 @@
+.git
+__pycache__
+.venv
+*.pyc
+.env
+tests/
+.vscode
+Dockerfile
+.idea
+
