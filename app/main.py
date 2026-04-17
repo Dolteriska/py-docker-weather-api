@@ -31,7 +31,7 @@ def parse_and_print(data: Dict[str, Any]) -> None:
     temp = current.get("temp_c")
     cond = current.get("condition", {}).get("text")
     localtime = location.get("localtime")
-    print(f"Paris {localtime} — {temp}°C, {cond}")
+    print(f"{LOCATION} {localtime} — {temp}°C, {cond}")
 
 
 def get_weather() -> None:
