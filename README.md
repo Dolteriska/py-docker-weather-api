@@ -1,1 +1,1 @@
-COMMAND=`docker pull dolteriska/weather`.
+COMMAND=`docker pull dolteriska/weather`
